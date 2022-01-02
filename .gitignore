@@ -1,0 +1,5 @@
+# Directorio de node_modules
+node_modules/
+
+# Configuraciones de entorno
+.env
