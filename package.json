@@ -4,7 +4,8 @@
   "description": "MERN Stack YouTube videos backend app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,21 @@
   "bugs": {
     "url": "https://github.com/atuxlife/mern-youtube-backend/issues"
   },
-  "homepage": "https://github.com/atuxlife/mern-youtube-backend#readme"
+  "homepage": "https://github.com/atuxlife/mern-youtube-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.6",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
 }

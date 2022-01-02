@@ -1,4 +1,5 @@
-# Directorio de node_modules
+# Directorios ignorados
+dist/
 node_modules/
 
 # Configuraciones de entorno
